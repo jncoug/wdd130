@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #2E2F2F;
+  --secondary-color: #CDDDDD;
+  --accent1-color: #DF2935;
+  --accent2-color: white;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Cabin", serif;
+  --paragraph-font: "Assistant", Helvetica, sans-serif;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+html {
+  background-color: var(--primary-color);
+}
+body {
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
+}
+img {
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1em;
+}
+
+
+
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
