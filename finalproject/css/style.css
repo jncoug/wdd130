@@ -14,16 +14,6 @@
   --heading-font: "Cabin", serif;
   --paragraph-font: "Assistant", Helvetica, sans-serif;
 
-  
-  --headline-color-on-var: --primary-color; 
-  --headline-color-on-color: --secondary-color; 
-  --paragraph-color-on-var: black; 
-  --paragraph-color-on-color: --accent2-color; 
-  --paragraph-background-color: --secondary-color;
-  --nav-link-color: --primary-color;
-  --nav-background-color: --secondary-color
-  --nav-hover-link-color: --secondary-color;
-  --nav-hover-background-color: --primary-color;
 }
 
 header {
