@@ -29,8 +29,7 @@ header {
     height: max-content;
     background-color: var(--accent2-color);
     border-radius: 50px 50px 0 0;
-    padding: 0.5em;
-    border: 1px solid #8BD7D2;
+    
   }
   
 
